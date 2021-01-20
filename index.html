@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exo JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+<link rel="icon" href="js-icon.png" />
+
+</head>
+<body>
+    <main>
+        <!-- EXO 1 -->
+        <h2>EXO 1</h2>
+        <section id="colorFlipper" class="flex">
+            <div class="color-flip flex" >
+                <h1 class="title">Color flipper</h1>
+                <button id="btn-flip">Change Color</button>
+            </div>
+        </section>
+
+        <!-- EXO 2 -->
+        <h2>EXO 2</h2>
+        <section id="counterProject" class="flex">
+            <h1 class="title">Counter</h1>
+            <div id="counter" class="title">
+                0
+            </div>
+            <div class="buttons flex">
+                <button id="decrement">Decrement</button>
+                <button id="reset">Reset</button>
+                <button id="increment">Increment</button>
+            </div>
+        </section>
+
+        <!-- EXO 3 -->
+        <h2>EXO 3</h2>
+        <section id="newYear" class="flex">
+            <h1 class="title"><span>Countdown to New Year </span>2022</h1>
+            <div class="countdown flex">
+                <div id="day"></div>
+                <div id="hour"></div>
+                <div id="minute"></div>
+                <div id="second"></div>
+            </div>
+        </section>
+
+        <!-- EXO 4 -->
+        <h2>EXO 4</h2>
+        <section id="toDO" class="flex column">
+            <h1 class="title">To Do List</h1>
+            <div class="container">
+                <input type="text" id="inputField">
+                <button id="addToDo">+</button>
+                <div class="to-dos" id="toDoContainer"></div>
+            </div>
+        </section>
+    </main>
+    <!-- SCRIPT -->
+    <script src="app.js"></script>
+</body>
+</html>
