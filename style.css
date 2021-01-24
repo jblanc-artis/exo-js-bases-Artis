@@ -214,7 +214,6 @@ p {
 .pads > * {
 	height: 100px;
 	width: 100px;
-	flex: 1;
 	cursor: pointer;
 	border: 2px solid white;
 	transition: .2s;
@@ -242,6 +241,17 @@ p {
 }
 .pad6 {
 	background: #3498db;
+}
+
+/* FOOTER */
+p {
+	color: white;
+	padding: 10px;
+	font-weight: lighter;
+	text-align: right;
+}
+i {
+	color: rgb(253, 0, 0);
 }
 
 /* --------------------------------MEDIA QUERIES-------------------------------- */
