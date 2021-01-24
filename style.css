@@ -60,6 +60,10 @@ section {
 	padding: 20px;
 }
 
+section:last-child {
+	margin-bottom: 20px;
+}
+
 h2 {
 	margin-bottom: 10px;
 	color: white;
