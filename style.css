@@ -44,12 +44,12 @@ button:hover {
 	box-shadow: 5px 5px 0 yellow;
 }
 
-button:focus {
+/* button:focus {
 	background: #281b3e !important;
 	box-shadow: none;
 	color: white;
 	outline: none;
-}
+} */
 
 section {
 	height: 50vh;
@@ -200,6 +200,51 @@ p {
 	display: block;
 }
 
+/* EXO 5 */
+
+#musicApp {
+	gap: 30px;
+}
+.pads {
+	width: 100%;
+	/* border: 4px solid white; */
+	gap: 10px;
+}
+
+.pads > * {
+	height: 100px;
+	width: 100px;
+	flex: 1;
+	cursor: pointer;
+	border: 2px solid white;
+	transition: .2s;
+}
+
+.pads > *:hover {
+	transform: scale(1.1);
+	box-shadow: 0 10px 20px rgba(57, 57, 57, .2);
+}
+
+.pad1 {
+	background: #1abc9c;
+}
+.pad2 {
+	background: #f1c40f;
+}
+.pad3 {
+	background: #9b59b6;
+}
+.pad4 {
+	background: #e67e22;
+}
+.pad5 {
+	background: #e74c3c;
+}
+.pad6 {
+	background: #3498db;
+}
+
+/* --------------------------------MEDIA QUERIES-------------------------------- */
 @media (max-width: 880px) {
 	section {
 		height: auto;
@@ -234,6 +279,15 @@ p {
 		gap: 10px;
 		flex-wrap: wrap;
 	}
+
+	.pads {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.pads > * {
+		width: 100%;
+	}
 }
 @media (max-width: 350px) {
 	.countdown {
@@ -244,5 +298,13 @@ p {
 	#newYear {
 		height: auto;
 		padding-bottom: 50px;
+	}
+
+	#inputField {
+		width: 150px;
+	}
+
+	.pads {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
