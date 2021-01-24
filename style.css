@@ -170,6 +170,7 @@ p {
 #toDO {
 	gap: 20px;
 	justify-content: flex-start;
+	min-height: 50vh;
 }
 .paragraph-styling {
 	font-size: 20px;
@@ -248,7 +249,7 @@ p {
 }
 
 /* FOOTER */
-p {
+.footerPara {
 	color: white;
 	padding: 10px;
 	font-weight: lighter;
