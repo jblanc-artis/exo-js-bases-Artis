@@ -44,13 +44,6 @@ button:hover {
 	box-shadow: 5px 5px 0 yellow;
 }
 
-/* button:focus {
-	background: #281b3e !important;
-	box-shadow: none;
-	color: white;
-	outline: none;
-} */
-
 section {
 	height: 50vh;
 	border-radius: .5em;
@@ -275,6 +268,12 @@ i {
 }
 
 @media (max-width: 670px) {
+	button:focus {
+		background: #281b3e !important;
+		box-shadow: none;
+		color: white;
+		outline: none;
+	}
 	.countdown div {
 		height: 70px;
 		width: 70px;
